@@ -12,6 +12,13 @@
         <module>demo001-spring-boot-websocket</module>
     </modules>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.0</version>
+        <relativePath/>
+    </parent>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
