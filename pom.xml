@@ -12,6 +12,8 @@
     <modules>
         <module>demo001-spring-boot-websocket</module>
         <module>demo002-java-socket</module>
+        <module>demo003-springboot-helloworld-api</module>
+        <module>demo004-springboot-component</module>
     </modules>
 
     <parent>
