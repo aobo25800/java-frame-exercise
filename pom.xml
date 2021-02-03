@@ -14,6 +14,8 @@
         <module>demo002-java-socket</module>
         <module>demo003-springboot-helloworld-api</module>
         <module>demo004-springboot-component</module>
+        <module>demo004-springcloud</module>
+        <module>demo005-springcloud-client</module>
     </modules>
 
     <parent>
