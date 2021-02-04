@@ -25,7 +25,7 @@ public class WebsocketController {
     private static AtomicInteger onlineCount = new AtomicInteger(0);
 
     /** 存放所有在线的客户端 */
-    private static Map<String, Session> clients = new ConcurrentHashMap<>();
+    private static Map<String, Session> clients = new ConcurrentHashMap();
 
     /**
      * 连接建立成功调用的方法
