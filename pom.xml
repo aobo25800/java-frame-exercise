@@ -10,23 +10,37 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>demo000-java-base</module>
         <module>demo001-spring-boot-websocket</module>
         <module>demo002-java-socket</module>
         <module>demo003-springboot-helloworld-api</module>
-        <module>demo004-springboot-component</module>
         <module>demo004-springcloud</module>
         <module>demo005-springcloud-client</module>
     </modules>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.0</version>
-        <relativePath/>
-    </parent>
 
     <properties>
         <java.version>1.8</java.version>
+        <lombok.version>1.18.16</lombok.version>
+        <fastjson.version>1.2.47</fastjson.version>
     </properties>
 
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 </project>
