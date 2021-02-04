@@ -18,4 +18,5 @@ demo002-java-socket/target/*
 demo003-springboot-helloworld-api/target/*
 demo004-springcloud/target/*
 demo005-springcloud-client/target/*
+demo000-java-base/target/*
 
