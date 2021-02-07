@@ -10,21 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>demo005-springcloud-client</artifactId>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-    </properties>
+
 
     <dependencies>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
             <version>2.4.1</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-loadbalancer</artifactId>
@@ -34,8 +27,8 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
             <version>2020.0.0</version>
-            <!--<type>pom</type>-->
-            <!--<scope>import</scope>-->
+            <type>pom</type>
+            <scope>import</scope>
         </dependency>
     </dependencies>
 
