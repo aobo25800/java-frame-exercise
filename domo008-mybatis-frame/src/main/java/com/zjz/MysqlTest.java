@@ -72,15 +72,15 @@ public class MysqlTest {
     /*
      * 测试方法
      */
-//    public static void main(String[] args) {
-//        Connection conn = MysqlTest.getSqlSession().getConnection();
-//        if(conn==null)
-//        {
-//            System.out.println("连接为空");
-//        }
-//        else
-//        {
-//            System.out.println("连接不为空");
-//        }
-//    }
+    public static void main(String[] args) {
+        Connection conn = MysqlTest.getSqlSession().getConnection();
+        if(conn==null)
+        {
+            System.out.println("连接为空");
+        }
+        else
+        {
+            System.out.println("连接不为空");
+        }
+    }
 }

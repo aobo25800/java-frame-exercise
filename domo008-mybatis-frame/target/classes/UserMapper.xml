@@ -29,15 +29,15 @@
    #{xx}：mybatis特有语法，用来替代jdbc中的?占位符
     -->
     <insert id="add1">
-    insert into student(id,name,age,sex) values("1","admin","22","男")
+    insert into base_user(id,userName,password,roles) values("1","admin","22","男")
     </insert>
 
-    <insert id="add2" parameterType="student">
-    insert into student(id,name,age,sex) values(#{id},#{name},#{age},#{sex})
+    <insert id="add2" parameterType="User">
+    insert into base_user(id,userName,password,roles) values(#{id},#{userName},#{password},#{roles})
     </insert>
 
-    <!-- <insert id="add3" parameterType="student">
-    insert into student(id,name,age,sex) values(#{id},#{name},#{age},#{sex})
-    </insert> -->
+    <insert id="add3" parameterType="user">
+    insert into base_user(id,userName,password,roles) values(#{id},#{userName},#{password},#{roles})
+    </insert>
 
 </mapper>

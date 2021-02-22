@@ -21,7 +21,7 @@ public class UserDao {
 
             //读取StudentMapper.xml配置文件中的sql语句，对应的sql语句由{名称空间.sql的id指定}
             int i = sqlSession.insert("studentNamespace.add1");
-            System.out.println("本次操作影响了"+i+"行数据");
+            System.out.println("11本次操作影响了"+i+"行数据");
 
             //事务提交
             sqlSession.commit();
@@ -47,7 +47,7 @@ public class UserDao {
 
             //读取StudentMapper.xml配置文件中的sql语句
             int i = sqlSession.insert("studentNamespace.add2",user);
-            System.out.println("本次操作影响了"+i+"行数据");
+            System.out.println("22本次操作影响了"+i+"行数据");
 
             //事务提交
             sqlSession.commit();
@@ -72,9 +72,9 @@ public class UserDao {
             sqlSession = MysqlTest.getSqlSession();
             //事务开始（默认）
 
-            //读取StudentMapper.xml配置文件中的sql语句
+            //读取UserMapper.xml配置文件中的sql语句
             int i = sqlSession.insert("studentNamespace.add3",user);
-            System.out.println("本次操作影响了"+i+"行数据");
+            System.out.println("33本次操作影响了"+i+"行数据");
             sqlSession.commit();
         }catch(Exception e){
             e.printStackTrace();
@@ -89,6 +89,6 @@ public class UserDao {
     public static void main(String[] args) {
         UserDao sd = new UserDao();
         sd.add1();
-        sd.add2(new User("64","kaiye","23","男"));
+//        sd.add3(new User("2","kaiye","23","男"));
     }
 }
