@@ -13,12 +13,5 @@
 hs_err_pid*
 *.iml
 .idea/*
-demo000-java-base/target/*
-demo001-spring-boot-websocket/target/*
-demo002-java-socket/target/*
-demo003-springboot-helloworld-api/target/*
-demo004-springcloud/target/*
-demo005-springcloud-client/target/*
-demo006-springboot-aop/target/*
-demo007-springboot-spring-security/target/*
+*/target/*
 
