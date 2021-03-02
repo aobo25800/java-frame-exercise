@@ -18,8 +18,8 @@
         <module>demo005-springcloud-client</module>
         <module>demo006-springboot-aop</module>
         <module>demo007-springboot-spring-security</module>
-        <module>domo008-mybatis-frame</module>
-        <module>domo009-springcloud-full</module>
+        <module>demo008-mybatis-frame</module>
+        <module>demo009-springcloud-full</module>
     </modules>
 
 
