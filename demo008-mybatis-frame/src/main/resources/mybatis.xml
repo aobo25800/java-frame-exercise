@@ -4,8 +4,7 @@
 <configuration>
 
     <!-- 加载类路径下的属性文件 -->
-    <properties resource="db.properties">
-    </properties>
+    <properties resource="db.properties"></properties>
 
     <!-- 设置实体类的类型别名 -->
     <typeAliases>
