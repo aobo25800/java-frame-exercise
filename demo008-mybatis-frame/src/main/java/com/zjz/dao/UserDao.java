@@ -1,8 +1,5 @@
 package com.zjz.dao;
 
-
-
-
 import org.apache.ibatis.session.SqlSession;
 
 import com.zjz.*;
@@ -20,7 +17,7 @@ public class UserDao {
             //事务开始（默认）
 
             //读取StudentMapper.xml配置文件中的sql语句，对应的sql语句由{名称空间.sql的id指定}
-            int i = sqlSession.insert("studentNamespace.add1");
+            int i = sqlSession.insert("UserMapper.add1");
             System.out.println("11本次操作影响了"+i+"行数据");
 
             //事务提交
@@ -46,7 +43,7 @@ public class UserDao {
             //事务开始（默认）
 
             //读取StudentMapper.xml配置文件中的sql语句
-            int i = sqlSession.insert("studentNamespace.add2",user);
+            int i = sqlSession.insert("UserMapper.add2",user);
             System.out.println("22本次操作影响了"+i+"行数据");
 
             //事务提交
@@ -73,7 +70,7 @@ public class UserDao {
             //事务开始（默认）
 
             //读取UserMapper.xml配置文件中的sql语句
-            int i = sqlSession.insert("studentNamespace.add3",user);
+            int i = sqlSession.insert("UserMapper.add3",user);
             System.out.println("33本次操作影响了"+i+"行数据");
             sqlSession.commit();
         }catch(Exception e){
