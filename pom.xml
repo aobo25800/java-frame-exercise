@@ -20,6 +20,7 @@
         <module>demo007-springboot-spring-security</module>
         <module>demo008-mybatis-frame</module>
         <module>demo009-springcloud-full</module>
+        <module>demo010-springboot-rabbitmq</module>
     </modules>
 
 
