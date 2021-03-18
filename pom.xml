@@ -21,6 +21,8 @@
         <module>demo008-mybatis-frame</module>
         <module>demo009-springcloud-full</module>
         <module>demo010-springboot-rabbitmq</module>
+        <module>demo011-java-logger</module>
+        <module>demo12-springboot-redis</module>
     </modules>
 
 
